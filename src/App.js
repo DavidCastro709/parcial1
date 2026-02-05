@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
-import mifoto from './s38.jpeg';
+import mifoto from './angel.jpeg';
 
 function App() {
   const [verDescargas, setVerDescargas] = useState(false);
-  const nombreAlumno = "Castro Soto David Alberto";
+  const nombreAlumno = "Angel David Gurrola Magallanes";
 
   if (verDescargas) {
     return (
@@ -49,7 +49,7 @@ function App() {
         <h1 className="evaluacion-texto">EVALUACIÓN PARCIAL 1</h1>
         <p className="alumno-texto">Alumno: {nombreAlumno}</p>
         <div className="enlaces-inferiores">
-          <a href="https://www.linkedin.com/in/david-alberto-castro-soto-b62450351" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/angel-magallanes-b418413aa/" target="_blank" rel="noreferrer">
             Visitar mi perfil de Linkedin
           </a>
           <button onClick={() => setVerDescargas(true)} className="boton-enlace">
